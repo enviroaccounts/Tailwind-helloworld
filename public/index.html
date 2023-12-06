@@ -1,21 +1,402 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="stylesheet" href="/build/tailwind.css">
-  <title>Welcome to Tailwind!</title>
-</head>
-<body>
-      <!-- <div class="font-pt-serif text-gray-900">
-        <h1 class="font-bold text-4xl">Headline Text (Bold 700)</h1>
-        <p class="font-normal text-2xl">Regular Text (Normal 400)</p>
-        <p class="font-bold text-xl">abcdefghijklmnopqrstuvwxyz</p>
-        <p class="font-normal text-xl">abcdefghijklmnopqrstuvwxyz</p>
-        <p class="font-normal text-lg">0123456789!@£$%^&*()#</p>
-    </div> -->
-  
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="stylesheet" href="/build/tailwind.css" />
+    <title>Welcome to Tailwind!</title>
+  </head>
+  <body>
+    <div class="w-96 h-96 bg-white">
+      <div
+        class="w-96 h-96 p-28 left-[224px] top-[251px] absolute bg-slate-50 rounded-3xl justify-start items-center gap-28 inline-flex"
+      >
+        <div
+          class="grow shrink basis-0 flex-col justify-start items-start gap-12 inline-flex"
+        >
+          <div
+            class="self-stretch h-36 flex-col justify-start items-start gap-2 flex"
+          >
+            <div
+              class="self-stretch text-slate-500 text-3xl font-normal font-['Inter'] leading-10"
+            >
+              Headlines / call-out text
+            </div>
+            <div
+              class="self-stretch text-slate-900 text-7xl font-bold font-['PT Serif'] leading-10"
+            >
+              PT Serif
+            </div>
+          </div>
+          <div
+            class="self-stretch justify-start items-start gap-10 inline-flex"
+          >
+            <div
+              class="w-44 p-6 bg-white rounded-2xl border-2 border-slate-200 flex-col justify-start items-start gap-5 inline-flex"
+            >
+              <div
+                class="text-slate-900 text-5xl font-normal font-['PT Serif'] leading-10"
+              >
+                Aa
+              </div>
+              <div class="self-stretch justify-between items-start inline-flex">
+                <div
+                  class="text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                >
+                  Regular
+                </div>
+                <div
+                  class="text-right text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                >
+                  400
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-44 p-6 bg-white rounded-2xl border-2 border-slate-200 flex-col justify-start items-start gap-5 inline-flex"
+            >
+              <div
+                class="text-slate-900 text-5xl font-bold font-['PT Serif'] leading-10"
+              >
+                Aa
+              </div>
+              <div class="self-stretch justify-between items-start inline-flex">
+                <div
+                  class="text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                >
+                  Bold
+                </div>
+                <div
+                  class="text-right text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                >
+                  700
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="self-stretch justify-start items-start gap-9 inline-flex">
+            <div class="grow shrink basis-0">
+              <span
+                class="text-slate-600 text-3xl font-normal font-['PT Serif'] uppercase leading-10 tracking-tight"
+                >abcdefghijklmnopqrstuvwxyz<br /></span
+              ><span
+                class="text-slate-600 text-3xl font-normal font-['PT Serif'] leading-10 tracking-tight"
+                >abcdefghijklmnopqrstuvwxyz<br />0123456789!@£$%^&*()#</span
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-right text-slate-900 text-9xl font-bold font-['PT Serif']"
+        >
+          Aa
+        </div>
+      </div>
+      <div
+        class="w-96 h-96 p-28 left-[224px] top-[1075px] absolute bg-slate-50 rounded-3xl justify-start items-center gap-28 inline-flex"
+      >
+        <div
+          class="grow shrink basis-0 flex-col justify-start items-start gap-12 inline-flex"
+        >
+          <div
+            class="self-stretch h-36 flex-col justify-start items-start gap-2 flex"
+          >
+            <div
+              class="self-stretch text-slate-500 text-3xl font-normal font-['Inter'] leading-10"
+            >
+              Subheads / body copy
+            </div>
+            <div
+              class="self-stretch text-slate-900 text-7xl font-bold font-['Inter'] leading-10"
+            >
+              Inter
+            </div>
+          </div>
+          <div class="w-96 justify-start items-start gap-10 inline-flex">
+            <div
+              class="w-44 p-6 bg-white rounded-2xl border-2 border-slate-200 flex-col justify-start items-start gap-5 inline-flex"
+            >
+              <div
+                class="text-slate-900 text-5xl font-light font-['Inter'] leading-10"
+              >
+                Aa
+              </div>
+              <div class="self-stretch justify-between items-start inline-flex">
+                <div
+                  class="text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                >
+                  Light
+                </div>
+                <div
+                  class="text-right text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                >
+                  300
+                </div>
+              </div>
+            </div>
+            <div class="self-stretch justify-start items-start gap-10 flex">
+              <div
+                class="w-44 p-6 bg-white rounded-2xl border-2 border-slate-200 flex-col justify-start items-start gap-5 inline-flex"
+              >
+                <div
+                  class="text-slate-900 text-5xl font-normal font-['Inter'] leading-10"
+                >
+                  Aa
+                </div>
+                <div
+                  class="self-stretch justify-between items-start inline-flex"
+                >
+                  <div
+                    class="text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                  >
+                    Regular
+                  </div>
+                  <div
+                    class="text-right text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                  >
+                    400
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-44 p-6 bg-white rounded-2xl border-2 border-slate-200 flex-col justify-start items-start gap-5 inline-flex"
+              >
+                <div
+                  class="text-slate-900 text-5xl font-medium font-['Inter'] leading-10"
+                >
+                  Aa
+                </div>
+                <div
+                  class="self-stretch justify-between items-start inline-flex"
+                >
+                  <div
+                    class="text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                  >
+                    Medium
+                  </div>
+                  <div
+                    class="text-right text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                  >
+                    500
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-44 p-6 bg-white rounded-2xl border-2 border-slate-200 flex-col justify-start items-start gap-5 inline-flex"
+              >
+                <div
+                  class="text-slate-900 text-5xl font-semibold font-['Inter'] leading-10"
+                >
+                  Aa
+                </div>
+                <div
+                  class="self-stretch justify-between items-start inline-flex"
+                >
+                  <div
+                    class="text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                  >
+                    Semi Bold
+                  </div>
+                  <div
+                    class="text-right text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                  >
+                    600
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-44 p-6 bg-white rounded-2xl border-2 border-slate-200 flex-col justify-start items-start gap-5 inline-flex"
+              >
+                <div
+                  class="text-slate-900 text-5xl font-bold font-['Inter'] leading-10"
+                >
+                  Aa
+                </div>
+                <div
+                  class="self-stretch justify-between items-start inline-flex"
+                >
+                  <div
+                    class="text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                  >
+                    Bold
+                  </div>
+                  <div
+                    class="text-right text-slate-500 text-lg font-normal font-['Inter'] leading-normal"
+                  >
+                    700
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="self-stretch justify-start items-start gap-9 inline-flex">
+            <div class="grow shrink basis-0">
+              <span
+                class="text-slate-600 text-3xl font-normal font-['Inter'] uppercase leading-10 tracking-tight"
+                >abcdefghijklmnopqrstuvwxyz<br /></span
+              ><span
+                class="text-slate-600 text-3xl font-normal font-['Inter'] leading-10 tracking-tight"
+                >abcdefghijklmnopqrstuvwxyz<br />0123456789!@£$%^&*()#</span
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-right text-slate-900 text-9xl font-bold font-['Inter']"
+        >
+          Aa 
+        </div>
+      </div>
+      <div
+        class="w-96 h-96 p-28 left-[224px] top-[1899px] absolute bg-slate-50 rounded-3xl flex-col justify-start items-start gap-28 inline-flex"
+      >
+        <div class="h-96 flex-col justify-start items-end gap-20 flex">
+          <div class="h-28 flex-col justify-start items-start gap-8 flex">
+            <div
+              class="self-stretch h-28 pb-3.5 border-b border-slate-300 flex-col justify-start items-start gap-5 flex"
+            >
+              <div
+                class="text-slate-900 text-7xl font-bold font-['PT Serif'] leading-10"
+              >
+                Headline
+              </div>
+              <div
+                class="text-slate-500 text-base font-normal font-['Inter'] leading-snug"
+              >
+                Font: PT Serif | Weight: Bold | Size: 129px | Line spacing:
+                141px | Letter spacing: -1%
+              </div>
+            </div>
+          </div>
+          <div class="h-16 flex-col justify-start items-start gap-8 flex">
+            <div
+              class="self-stretch h-16 pb-3.5 border-b border-slate-300 flex-col justify-start items-start gap-2.5 flex"
+            >
+              <div
+                class="text-slate-900 text-xl font-bold font-['Inter'] uppercase leading-normal"
+              >
+                Subhead 01
+              </div>
+              <div
+                class="text-slate-500 text-base font-normal font-['Inter'] leading-snug"
+              >
+                Font: Inter | Weight: Bold | Size: 34px | Line spacing: 45px |
+                Letter spacing: -1% | All caps
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch h-16 pb-3.5 border-b border-slate-300 flex-col justify-start items-start gap-2.5 flex"
+          >
+            <div
+              class="text-slate-900 text-lg font-bold font-['Inter'] leading-snug"
+            >
+              Subhead 02
+            </div>
+            <div
+              class="text-slate-500 text-base font-normal font-['Inter'] leading-snug"
+            >
+              Font: Inter | Weight: Bold | Size: 30px | Line spacing: 37px |
+              Letter spacing: -1%
+            </div>
+          </div>
+          <div
+            class="self-stretch h-16 pb-3.5 border-b border-slate-300 flex-col justify-start items-start gap-2.5 flex"
+          >
+            <div
+              class="text-slate-900 text-lg font-medium font-['Inter'] underline leading-snug"
+            >
+              Subhead 03
+            </div>
+            <div
+              class="text-slate-500 text-base font-normal font-['Inter'] leading-snug"
+            >
+              Font: Inter | Weight: Medium | Size: 28.5px | Line spacing: 42.5px
+              | Letter spacing: -1%
+            </div>
+          </div>
+          <div
+            class="self-stretch h-16 pb-3.5 border-b border-slate-300 flex-col justify-start items-start gap-2.5 flex"
+          >
+            <div
+              class="text-slate-900 text-lg font-light font-['Inter'] leading-snug"
+            >
+              Body copy
+            </div>
+            <div
+              class="text-slate-500 text-base font-normal font-['Inter'] leading-snug"
+            >
+              Font: Inter | Weight: Light | Size: 28.5px | Line spacing: 42.5px
+              | Letter spacing: 0%
+            </div>
+          </div>
+          <div
+            class="self-stretch h-16 pb-3.5 border-b border-slate-300 flex-col justify-start items-start gap-2.5 flex"
+          >
+            <div
+              class="text-slate-900 text-lg font-medium font-['Inter'] leading-snug"
+            >
+              Caption
+            </div>
+            <div
+              class="text-slate-500 text-base font-normal font-['Inter'] leading-snug"
+            >
+              Font: Inter | Weight: Medium | Size: 29px | Line spacing: 35px |
+              Letter spacing: -1%
+            </div>
+          </div>
+          <div
+            class="self-stretch h-16 pb-3.5 border-b border-slate-300 flex-col justify-start items-start gap-2.5 flex"
+          >
+            <div
+              class="text-slate-900 text-lg font-normal font-['Inter'] leading-snug"
+            >
+              Footer
+            </div>
+            <div
+              class="text-slate-500 text-base font-normal font-['Inter'] leading-snug"
+            >
+              Font: Inter | Size: 22.5px | Line spacing: 38px | Letter spacing:
+              -1%
+            </div>
+          </div>
+          <div
+            class="self-stretch h-28 pb-3.5 border-b border-slate-300 flex-col justify-start items-start gap-2.5 flex"
+          >
+            <div
+              class="text-slate-900 text-6xl font-bold font-['PT Serif'] leading-10"
+            >
+              Statistic
+            </div>
+            <div
+              class="text-slate-500 text-base font-normal font-['Inter'] leading-snug"
+            >
+              Font: PT Serif | Weight: Bold | Size: 110px | Line spacing: 143px
+              | Letter spacing: -3%
+            </div>
+          </div>
+          <div
+            class="self-stretch h-20 pb-3.5 border-b border-slate-300 flex-col justify-start items-start gap-2.5 flex"
+          >
+            <div
+              class="text-slate-900 text-3xl font-normal font-['PT Serif'] leading-9"
+            >
+              Call out copy
+            </div>
+            <div
+              class="w-96 text-slate-500 text-base font-normal font-['Inter'] leading-snug"
+            >
+              Font: PT Serif | Weight: Regular | Size: 39px | Line spacing: 52px
+              | Letter spacing: -2%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
