@@ -1,10 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  // ...
-  plugins: [
-    require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio'), require('@tailwindcss/container-queries'),
-  ],
-}
+
 
 module.exports = {
   content: ["./public/**/*.html"],
@@ -158,5 +153,6 @@ module.exports = {
     
   },
   variants: {},
-  plugins: [],
+  //plugin added
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio'), require('@tailwindcss/container-queries'),],
 };
