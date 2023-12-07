@@ -5,3 +5,33 @@
 .custome-grey-text {
     color: #495057;  
 }
+
+@layer components {
+    .headline {
+      @apply font-pt-serif font-bold text-headline leading-headline tracking-tight;
+    }
+    .subhead-01 {
+      @apply font-inter font-bold text-subhead-01 leading-subhead-01 tracking-tight uppercase;
+    }
+    .subhead-02 {
+      @apply font-inter font-bold text-subhead-02 leading-subhead-02 tracking-tight;
+    }
+    .subhead-03 {
+      @apply font-inter font-medium text-subhead-03 leading-subhead-03 tracking-tight;
+    }
+    .body-copy {
+      @apply font-inter font-light text-body leading-body tracking-normal;
+    }
+    .caption {
+      @apply font-inter font-medium text-caption leading-caption tracking-tight;
+    }
+    .footer {
+      @apply font-inter text-footer leading-footer tracking-tight;
+    }
+    .statistic {
+      @apply font-pt-serif font-bold text-statistic leading-statistic tracking-tightest;
+    }
+    .callout {
+      @apply font-pt-serif font-regular text-callout leading-callout tracking-tighter;
+    }
+  }
