@@ -6,11 +6,16 @@ module.exports = {
       'inter': ['Inter', 'sans-serif'],
     },
     fontWeight: {
-      'light': 300,
-      'regular': 400,
-      'medium': 500,
-      'semibold': 600,
-      'bold': 700,
+      'thin': 100,             // Tailwind's font-thin
+      'extralight': 200,       // Tailwind's font-extralight
+      'light': 300,            // Tailwind's font-light, matches designer's value
+      'normal': 400,           // Tailwind's font-normal
+      'regular': 400,          // Designer's value, same as 'normal'
+      'medium': 500,           // Tailwind's font-medium, matches designer's value
+      'semibold': 600,         // Tailwind's font-semibold, matches designer's value
+      'bold': 700,             // Tailwind's font-bold, matches designer's value
+      'extrabold': 800,        // Tailwind's font-extrabold
+      'black': 900,            // Tailwind's font-black
     },
     colors: {
       'white': '#FFFFFF',
