@@ -489,13 +489,6 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.headline {
-  font-family: PT Serif, serif;
-  font-size: 8.0625rem;
-  font-weight: 700;
-  line-height: 8.8125rem;
-  letter-spacing: -1%;
-}
 .float-left {
   float: left;
 }
@@ -1083,6 +1076,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 .underline {
   text-decoration-line: underline;
 }
@@ -1107,3 +1104,5 @@ video {
 .custome-grey-text {
     color: #495057;  
 }
+
+
