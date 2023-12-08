@@ -555,6 +555,9 @@ video {
 .mt-5 {
   margin-top: 1.25rem;
 }
+.mb-12 {
+  margin-bottom: 3rem;
+}
 .flex {
   display: flex;
 }
@@ -738,9 +741,6 @@ video {
 }
 .border-b-8 {
   border-bottom-width: 8px;
-}
-.border-b-4 {
-  border-bottom-width: 4px;
 }
 .border-dashed {
   border-style: dashed;
