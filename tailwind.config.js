@@ -161,9 +161,9 @@ module.exports = {
         'graph-key': '3.25rem', // 52px
       },
       letterSpacing: {
-        'tight': '-1%', // -1%
-        'tighter': '-2%', // -2%
-        'tightest': '-3%', // -3%
+        'tight': '-0.1rem', // -1%
+        'tighter': '-0.2rem', // -2%
+        'tightest': '-0.3rem', // -3%
         'default': '0', // 0%
       },
       width: {
