@@ -5,7 +5,7 @@ module.exports = {
   content: ["./public/**/*.html"],
   theme: {
     fontFamily: {
-      'overused-grotesk': ['Overused Grotesk', 'serif'],
+      'overused-grotesk': ['Overused Grotesk', 'sans-serif'],
       'inter': ['Inter', 'sans-serif'],
     },
     fontWeight: {
@@ -135,35 +135,35 @@ module.exports = {
     },},
     extend: {
       fontSize: {
-        'headline': '8.0625rem' /* 129px */,
-        'subhead-01': '2.125rem' /* 34px */,
-        'subhead-02': '1.875rem' /* 30px */,
-        // 'subhead-03': '1.78125rem' /* 28.5px */,
-        'body': '1.78125rem' /* 28.5px */,
-        'caption': '1.8125rem' /* 29px */,
-        'footer': '1.40625rem' /* 22.5px */,
-        'statistic': '6.875rem' /* 110px */,
-        'callout': '2.4375rem' /* 39px */,
+        'headline': '8.0625rem', // 129px
+        'subhead-01': '2.125rem', // 34px
+        'subhead-02': '1.875rem', // 30px
+        'body': '1.78125rem', // 28.5px
+        'caption': '1.8125rem', // 29px
+        'footer': '1.40625rem', // 22.5px
+        'footer-02': '1.78125rem', // 28.5px
+        'statistic': '6.875rem', // 110px
+        'callout': '2.4375rem', // 39px
         'graph-axis': '2.4375rem', // 39px
         'graph-key': '2.4375rem', // 39px
       },
       lineHeight: {
-        'headline': '8.8125rem' /* 141px */,
-        'subhead-01': '2.8125rem' /* 45px */,
-        'subhead-02': '2.3125rem' /* 37px */,
-        // 'subhead-03': '2.65625rem' /* 42.5px */,
-        'body': '2.65625rem' /* 42.5px */,
-        'caption': '2.1875rem' /* 35px */,
-        'footer': '2.375rem' /* 38px */,
-        'statistic': '8.9375rem' /* 143px */,
+        'headline': '8.8125rem', // 141px
+        'subhead-01': '2.8125rem', // 45px
+        'subhead-02': '2.3125rem', // 37px
+        'body': '2.65625rem', // 42.5px
+        'caption': '2.1875rem', // 35px
+        'footer': '2.375rem', // 38px
+        'footer-02': '2.65625rem', // 42.5px
+        'statistic': '8.9375rem', // 143px
         'callout': '3.25rem', // 52px
         'graph-axis': '3.25rem', // 52px
         'graph-key': '3.25rem', // 52px
       },
       letterSpacing: {
-        'tight': '-1%' /* -1% */,
-        'tighter': '-2%' /* -2% */,
-        'tightest': '-3%' /* -3% */,
+        'tight': '-1%', // -1%
+        'tighter': '-2%', // -2%
+        'tightest': '-3%', // -3%
         'default': '0', // 0%
       },
       width: {
