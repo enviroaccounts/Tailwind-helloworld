@@ -1209,14 +1209,23 @@ video {
 .leading-subhead-02 {
   line-height: 2.3125rem;
 }
+.leading-footer-02 {
+  line-height: 2.65625rem;
+}
+.leading-tight {
+  line-height: 1.25;
+}
 .tracking-tight {
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.01rem;
 }
 .tracking-tighter {
-  letter-spacing: -0.2rem;
+  letter-spacing: -0.02rem;
 }
 .tracking-tightest {
   letter-spacing: -0.3rem;
+}
+.tracking-default {
+  letter-spacing: 0;
 }
 .text-black {
   --tw-text-opacity: 1;
