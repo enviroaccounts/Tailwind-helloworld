@@ -5,7 +5,7 @@ module.exports = {
   content: ["./public/**/*.html"],
   theme: {
     fontFamily: {
-      'pt-serif': ['PT Serif', 'serif'],
+      'overused-grotesk': ['Overused Grotesk', 'serif'],
       'inter': ['Inter', 'sans-serif'],
     },
     fontWeight: {
@@ -47,7 +47,19 @@ module.exports = {
         200: '#CCE3F0',
         100: '#E6F1F7',
       },
-      'grey': '#E4E4E4',
+        'grey': {
+          DEFAULT: '#e4e4e4',
+          900: '#2e2e2e',
+          800: '#5b5b5b',
+          700: '#898989',
+          600: '#b6b6b6',
+          500: '#e4e4e4',
+          400: '#e7e7e7',
+          300: '#ececec',
+          200: '#f2f2f2',
+          100: '#f7f7f7',
+          50: '#fcfcfc',
+        },
       'light-blue': {
         DEFAULT: '#56B4E9',
         900: '#67BCEB',
@@ -126,28 +138,33 @@ module.exports = {
         'headline': '8.0625rem' /* 129px */,
         'subhead-01': '2.125rem' /* 34px */,
         'subhead-02': '1.875rem' /* 30px */,
-        'subhead-03': '1.78125rem' /* 28.5px */,
+        // 'subhead-03': '1.78125rem' /* 28.5px */,
         'body': '1.78125rem' /* 28.5px */,
         'caption': '1.8125rem' /* 29px */,
         'footer': '1.40625rem' /* 22.5px */,
         'statistic': '6.875rem' /* 110px */,
         'callout': '2.4375rem' /* 39px */,
+        'graph-axis': '2.4375rem', // 39px
+        'graph-key': '2.4375rem', // 39px
       },
       lineHeight: {
         'headline': '8.8125rem' /* 141px */,
         'subhead-01': '2.8125rem' /* 45px */,
         'subhead-02': '2.3125rem' /* 37px */,
-        'subhead-03': '2.65625rem' /* 42.5px */,
+        // 'subhead-03': '2.65625rem' /* 42.5px */,
         'body': '2.65625rem' /* 42.5px */,
         'caption': '2.1875rem' /* 35px */,
         'footer': '2.375rem' /* 38px */,
         'statistic': '8.9375rem' /* 143px */,
-        'callout': '3.25rem' /* 52px */,
+        'callout': '3.25rem', // 52px
+        'graph-axis': '3.25rem', // 52px
+        'graph-key': '3.25rem', // 52px
       },
       letterSpacing: {
         'tight': '-1%' /* -1% */,
         'tighter': '-2%' /* -2% */,
         'tightest': '-3%' /* -3% */,
+        'default': '0', // 0%
       },
       width: {
         '76': '19.0rem',
